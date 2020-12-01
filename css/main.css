@@ -70,13 +70,102 @@ h3 {
   margin: 8px 0; 
  
  }
+ 
+ .mis-avant {
 
- .ordinateur-1 {
+display: flex;
+max-width: 1280px;
+margin-left: auto;
+margin-right: auto;
 
-  width: 487px;
-  height: 471px;
+ } 
+
+ .mis-avant_content,
+ .mis-avant__illu 
+ 
+ {
+  flex-basis: 320px;
+  flex-grow: 1;
 
  }
+
+ .mis-avant__description {
+
+  padding-top: 0;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  font-size: 16px;
+  text-align: justify;
+
+ }
+
+ .mis-avant__title {
+
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+
+ }
+
+ .mis-avant_image {
+
+display: block;
+max-width: 70%;
+mix-blend-mode: darken;
+
+ }
+
+ 
+
+ .mis-avant__illu {
+
+background-image: url(../img/bg-yellow.svg);
+background-position: left bottom;
+background-size: auto 100%;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+
+ }
+
+ p {
+
+font-size: 16px;
+color: #231f20;
+margin: 34px 0;
+
+ }
+
+
+  .rectangle {
+
+    width: 185px;
+    height: 48px;
+    margin: 30px 31px 22px 455px;
+    border-radius: 15px;
+    border: solid 4px #fcce08;
+
+  }
+
+  .button {
+
+    border: solid 4px #fcce00
+    border-radius: 15px;
+    display: block;
+    max-width: 200px;
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #fcce00;
+    padding: 10px
+
+  }
+
+
+}
 
 h4 {
   /* Default font, size, and margins */
