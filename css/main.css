@@ -151,10 +151,15 @@ margin-right: auto;
  .mis-avant__description {
 
   padding-top: 0;
-  padding-right: 32px;
-  padding-left: 32px;
-  padding-bottom: 32px;
   text-align: justify;
+
+ }
+
+ .mis-avant__description2 {
+
+  font-size: 24px;
+  margin-left: 60px;
+  color: white;
 
  }
 
@@ -165,6 +170,16 @@ margin-right: auto;
   text-align: center;
 
  }
+
+ .mis-avant__title2 {
+
+  font-size: 32px;
+  margin-left: 60px;
+  color: #ffffff;
+
+ }
+
+
 
  .mis-avant_image {
 
@@ -233,11 +248,38 @@ margin-left: 25px;
 
 font-size: 16px;
 color: #231f20;
-margin: 34px 0;
+ }
+
+ .game_list {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 32px;
+  padding: 65px 32px;
+  background-color: #222222;
+
+ }
+
+ .sub-title3 {
+
+background-color:  #222222;
+padding-top: 5px;
+color: white;
 
  }
 
 
+ .game {
+
+  position: relative;
+  width: 100%;
+  margin: auto;
+  color: white;
+  border-radius: 15px;
+  overflow: hidden;
+
+
+ }
 
   .button {
 
@@ -261,7 +303,6 @@ margin: 34px 0;
     border-radius: 15px;
     display: block;
     max-width: 200px;
-    margin-left: auto;
     font-size: 20px;
     font-weight: bold;
     font-style: normal;
@@ -274,23 +315,29 @@ margin: 34px 0;
 
   .button3 {
 
-    border: solid 4px #e02020;
+    border: solid 4px white;
     border-radius: 15px;
     display: block;
     max-width: 200px;
-    margin-left: auto;
     font-size: 20px;
     font-weight: bold;
     font-style: normal;
     text-align: center;
-    color: #e02020;
-    padding: 10px
+    color: white;
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 32px;
 
   }
 
+  .grille  {
 
-}
+display: grid;
+grid-template-columns: repeat(4, 1fr);
 
+  }
+
+  
 h4 {
   /* Default font, size, and margins */
 }
