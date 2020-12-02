@@ -210,7 +210,6 @@ mix-blend-mode: darken;
  
 
  .mis-avant__illu {
-
 background-image: url(../img/bg-yellow.svg);
 background-position: left bottom;
 background-size: auto 100%;
@@ -218,11 +217,9 @@ display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 margin-left: 25px;
-
  }
 
  .mis-avant__illu2 {
-
   background-image: url(../img/bg-orange.svg);
   background-position: left bottom;
   background-size: auto 100%;
@@ -232,54 +229,106 @@ margin-left: 25px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  
    }
 
 
    .mis-avant__illu3 {
-
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    
      }
 
  p {
-
 font-size: 16px;
 color: #231f20;
  }
 
- .game_list {
 
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 32px;
-  padding: 65px 32px;
-  background-color: #222222;
-
+ .bloc {
+background-color:  #222222;
  }
 
  .sub-title3 {
-
-background-color:  #222222;
-padding-top: 5px;
-color: white;
-
+  color: white;
+  font-size: 40px;
+  text-align: center;
  }
 
 
- .game {
+ .game_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+ }
 
+ .game {
   position: relative;
   width: 100%;
   margin: auto;
   color: white;
   border-radius: 15px;
   overflow: hidden;
-
-
  }
+
+.gameanimation {
+  position: relative;
+}
+
+ .gameanim_content {
+  position: absolute;
+  color: #ffffff;
+  background: rgba(0 0 0 / 52%);
+  border-radius: 5px;
+  background-color: #231f20;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 200ms;
+ }
+
+ .gameanim_content:hover {
+  opacity: 0.81;
+ }
+
+.gameanim_content>* {
+  transform: translateY (30px);
+  transition: transform 200ms;
+}
+
+.gameanim_content:hover>* {
+transform: translateY(0px);
+}
+
+.titlegame {
+color: white;
+font-size: 14px;
+text-align: center;
+}
+
+.subtitlegame1 {
+  text-align: center;
+  font-size: 32px;
+  color: #fcce00;
+  font-weight: bold;
+}
+
+
+.subtitlegame2 { 
+  text-align: center;
+  font-size: 32px;
+  color: #ff6b00;
+  font-weight: bold;
+}
+
+.descriptiongame {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
 
   .button {
 
@@ -339,7 +388,7 @@ grid-template-columns: repeat(4, 1fr);
 
   @media screen and (max-width: 702px) {
 
-    .section-title {
+    .h1 {
 
       font-size: 40px;
 
