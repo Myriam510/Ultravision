@@ -337,6 +337,15 @@ grid-template-columns: repeat(4, 1fr);
 
   }
 
+  @media screen and (max-width: 702px) {
+
+    .section-title {
+
+      font-size: 40px;
+
+    }
+
+  }
   
 h4 {
   /* Default font, size, and margins */
